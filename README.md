@@ -1,2 +1,4 @@
 # Transformer-Based-Song-Genre-Classification
-In this paper, we explore the task of predicting a song’s genre based on its lyrical content, employing transformer-based natural language processing models.
+
+## Abstract
+In this paper, we explore the task of predicting a song’s genre based on its lyrical content, employing transformer-based natural language processing models. A baseline Long Short-Term Memory (LSTM) model is established using GloVe embeddings and subsequent transformer-based architectures including DistilBERT, BERT, and RoBERTa are implemented to enhance predictive performance. Notably, the incorporation of sentiment analysis, particularly with the DistilBERT model, yields superior results. Leveraging sophisticated language representations, our findings underscore the efficacy of transformer models in capturing nuanced relationships between lyrics and music genres, thereby exploring the limits of transformer-based models in genre classifi018 cation within the domain of song analysis.
