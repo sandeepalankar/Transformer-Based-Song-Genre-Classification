@@ -1,0 +1,15 @@
+# Data Folder README
+
+## Introduction
+This directory contains preprocessed data files in CSV format used for the song genre classification project.
+
+## Data Files Description
+- `train.csv`: Used for training the model, contains columns for 'lyrics', 'genre', 'artist', and 'language'. This dataset is further split 85-15 into train dataset and validation dataset.
+- `test.csv`: Test dataset for evaluating the model's performance.
+
+## How to Use the Data
+- Use `train.csv` for training the model with the respective lyrics and genre labels.
+- Use `test.csv` to test the model's performance after training.
+
+## Citation/Source
+The original dataset is from Kaggle dataset: Multilingual Lyrics for Genre Classification (https://www.kaggle.com/datasets/mateibejan/multilingual-lyrics-for-genre-classification)

@@ -1,0 +1,45 @@
+# Output Folder README
+
+## Files Included
+This directory contains the output of our song genre classification model, presented in two CSV files:
+
+- `validation_predictions.csv`: Predictions made by the model on the validation dataset.
+- `test_predictions.csv`: Predictions made by the model on the test dataset.
+
+## Output Files Description
+Each file includes the following three columns:
+- `Lyrics`: The lyrics of the song.
+- `Predicted Label`: The genre label predicted by the model.
+- `True Label`: The actual genre label.
+
+## How to Run the Evaluation in the Notebook
+To evaluate the model's predictions, navigate to the evaluation section of the Jupyter notebook. The cells in this section load the prediction files and compute the evaluation metrics.
+
+1. Ensure that the `validation_predictions.csv` and `test_predictions.csv` files are in the correct directory as specified in the notebook.
+2. Run the evaluation cells in the notebook to compute the accuracy, precision, recall, and F1 score for the predictions made by the model.
+
+## Example of Scores Output
+The notebook will display the evaluation results in the following format:
+
+Test Accuracy: 0.37265280403276624
+Genre         Count    Precision    Recall    F1_score
+----------  -------  -----------  --------  ----------
+Electronic      660     0.214286  0.359091   0.134202
+Jazz            660     0.471591  0.377273   0.209596
+Metal           810     0.72009   0.393827   0.254589
+Folk            495     0.259012  0.391919   0.155949
+Hip-Hop         960     0.868812  0.73125    0.397059
+Rock           1410     0.376147  0.087234   0.0708117
+R&B             510     0.19645   0.32549    0.122509
+Indie           510     0.176238  0.34902    0.117105
+Country         810     0.415535  0.680247   0.257959
+Pop            1110     0.300126  0.214414   0.125066
+
+Overall
+Accuracy: 0.37265280403276624
+Weighted Precision: 0.42701742380492974
+Weighted Recall: 0.37265280403276624
+Weighted F1 Score: 0.18416029642419923
+Macro Precision: 0.37265280403276624
+Macro Recall: 0.37265280403276624
+Macro F1 Score: 0.18632640201638315
